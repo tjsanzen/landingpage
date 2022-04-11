@@ -272,6 +272,7 @@ iframe {
   align-items: center;
   justify-content: center;
   word-break: break-word;
+  width: 20%;
 }
 
 .btn-sm {
