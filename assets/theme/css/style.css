@@ -272,11 +272,9 @@ iframe {
   align-items: center;
   justify-content: center;
   word-break: break-word;
-  @media screen and (min-width: 800px) {
-		
-		min-width: 20%;
-    // this css will only be used when the screen size is min 800px
-}
+  width: 20%;
+  width: -moz-fit-content;
+  width: fit-content;
   
 }
 
