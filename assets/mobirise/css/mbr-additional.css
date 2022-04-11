@@ -188,7 +188,8 @@ body {
 }
 /* Buttons */
 .btn {
-  width: 18%;
+  min-width: 60%;
+  width: fit-content;
   padding: 0.6rem 1.2rem;
   border-radius: 4px;
 }
