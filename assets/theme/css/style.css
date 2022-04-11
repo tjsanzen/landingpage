@@ -272,9 +272,6 @@ iframe {
   align-items: center;
   justify-content: center;
   word-break: break-word;
-  width: 20%;
-  !important width: -moz-fit-content;
-  !important width: fit-content;
   
 }
 
