@@ -10,7 +10,9 @@ community, and you are a part of making that happen. <3
 
 My content is **ENTERTAINMENT ONLY** and under no circumstances, should you ever
 mistake it for educational or life help videos. In these situations, please consult
-a professional. 
+a professional. I am not providing offical instruction, I am simply sharing what I 
+love with my viewers, and sometimes I just make things up, which although is usually
+satire, can be difficult to detect at times. 
 
 #### Content on my platforms is heavily edited.
 
@@ -18,7 +20,7 @@ I have a background in motion graphics and visual effects. The majority of my co
 has been edited in some form or another, ranging from simple color corrections, up to
 giving the appearance of activities that would otherwise be dangerous, illegal, or 
 impossible to attempt in reality. I make sure that I am in compliance with all local
-laws and regulations, especially 14 CFR 91.13, Reckless or Careless Information. Per
+laws and regulations, especially 14 CFR 91.13, Reckless or Careless actions. Per
 the disclaimer here and on the majority of my videos, events have been edited for 
 entertainment purposes, and do not include the steps that were taken to abide by
 best practices, including radio calls, checklist usage, and any other safety measures.
