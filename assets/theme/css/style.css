@@ -190,7 +190,7 @@ section .mbr-background-video-preview {
 
 @media (min-width: 992px) {
   .media-container-row {
-    flex-wrap: nowrap;
+    width: auto;
   }
 }
 
