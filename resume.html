@@ -2,16 +2,14 @@
 <html>
 
 <head>
-    <!-- Site made with Mobirise Website Builder v5.1.4, https://mobirise.com -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="Mobirise v5.1.4, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="assets/images/logo5.png" type="image/x-icon">
     <meta name="description" content="">
 
 
-    <title>resume</title>
+    <title>Resume</title>
     <link rel="stylesheet" href="assets/tether/tether.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -19,6 +17,7 @@
     <link rel="stylesheet" href="assets/theme/css/style.css">
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="stylesheet" href="assets/custom/style.css">
 
 
 
@@ -41,6 +40,46 @@
 
                 </div>
             </div>
+            
+            
+            
+            
+            <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openPage(event, 'Work')">Work History</button>
+  <button class="tablinks" onclick="openPage(event, 'Freelance')">Freelancing</button>
+  <button class="tablinks" onclick="openPage(event, 'Projects')">Projects</button>
+    <button class="tablinks" onclick="openPage(event, 'Skills')">Skills</button>
+</div>
+
+<!-- Tab content -->
+<div id="Work" class="tabcontent">
+  <h3>Work History</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Freelance" class="tabcontent">
+  <h3>Freelancing</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Projects" class="tabcontent">
+  <h3>Projects</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+<div id="Skills" class="tabcontent">
+    <h3>Skills</h3>
+    <p>Skills page.</p>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
             <div class="row justify-content-center mt-4">
                 <div class="col-12 col-md-8">
                     <ul class="nav nav-tabs mb-4" role="tablist">
@@ -99,7 +138,32 @@
     <script src="assets/smoothscroll/smooth-scroll.js"></script>
     <script src="assets/mbr-tabs/mbr-tabs.js"></script>
     <script src="assets/theme/js/script.js"></script>
+    
+    
+<script>
+    
+    function openPage(evt, pageName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
 
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(pageName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+    
+    </script
 
 </body>
 
